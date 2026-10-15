@@ -8,5 +8,5 @@ export function sum(numbers) {
 
 export function average(numbers) {
     if (numbers.length === 0) return 0;
-    return sum(numbers) / (numbers.length - 1);
+    return sum(numbers) / numbers.length;
 }
